@@ -53,7 +53,7 @@ app.get('/login', async (req, res) => {
 
 app.get('/validar', (req, res) => {
   if (req.session.usuario){
-    req.status(200).send('Sesión validada')
+    res.status(200).send('Sesión validada')
   } else {
     res.status(401).send('No está autorizado')
   }
