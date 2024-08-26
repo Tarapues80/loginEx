@@ -11,6 +11,7 @@ const resgistro = require('./registro');
 const { obtenerUsuarios, eliminarUsuarios } = require('./usuarios');
 const validar = require('./validar');
 const saltRounds = 10;
+mysql://root:gaZPlRAiOjktwpAafpJgBjVdjiKEvVBA@junction.proxy.rlwy.net:48800/railway
 
 app.use(cors({
   origin: process.env.URLFRONTEND || 'http://localhost:5173',
